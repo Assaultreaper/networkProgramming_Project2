@@ -1,0 +1,24 @@
+{
+  "UserPrefs": {
+    "WelcomeMessage": "welcome to the UserPreferator, where all your UserPrefs can be set.",
+    "ExitMessage": "Enter ‘x’ at any time to exit the program.",
+    "preferences": {
+      "Language": "English",
+      "DisplayName": "James",
+      "Number": 3,
+      "AnimalFriend": "Dog"
+    },
+    "ChangePreferences": {
+      "Prompt": "Enter the number [1,2,3,4] to change a preference:",
+      "SelectedPreference": 1,
+      "CurrentPreference": "Language Preference Set : Current Language English"
+    },
+    "FinalPreferences": {
+      "SpeakingStyle": "Pyratish",
+      "MonikerT'Show": "James",
+      "Numeral": 3,
+      "AnimalMate": "Dog"
+    },
+    "ExitMessagePirate": "Avast Ye UserPreferator, it be the coffer fer all yer UserPrefs sett’n needs."
+  }
+}

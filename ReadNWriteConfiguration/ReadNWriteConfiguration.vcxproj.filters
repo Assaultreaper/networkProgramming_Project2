@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\JSONConfig">
+      <UniqueIdentifier>{0b35c5a2-42e2-411d-b4ee-b6a328dd32b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\XMLConfig">
+      <UniqueIdentifier>{5a4af427-ca58-4ed9-ac16-95b3e15d6765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataContainers">
+      <UniqueIdentifier>{a9f139fe-df55-44af-b280-322c94ec0692}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JSONConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iConfigurationReaderWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="definations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JSONConfig.cpp">
+      <Filter>Source Files\JSONConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLConfig.cpp">
+      <Filter>Source Files\XMLConfig</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="iConfigurationReaderWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LanguageData.json">
+      <Filter>DataContainers</Filter>
+    </None>
+  </ItemGroup>
+</Project>
